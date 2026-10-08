@@ -1,5 +1,7 @@
 # flutter_gpu_powervr_repro
 
+Filed as **flutter/flutter#194034**: https://github.com/flutter/flutter/issues/194034
+
 Minimal Flutter GPU app that shows a PowerVR Vulkan driver defect on the
 Pixel 10 (Tensor G5, PowerVR D-Series DXT-48-1536 MC1, driver 25.3@6908880,
 Android 17 `CP3A.260905.009`): **a render pass that `LoadAction.load`s a color
