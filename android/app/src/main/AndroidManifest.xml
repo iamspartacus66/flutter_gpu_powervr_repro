@@ -34,10 +34,12 @@
         <meta-data
             android:name="io.flutter.embedding.android.EnableFlutterGPU"
             android:value="true" />
-        <!-- GLES CONTROL BUILD (temporary): force the OpenGL ES backend. -->
+        <!-- Control: uncomment to force the OpenGL ES backend (honored in
+             debug/profile builds only). On GLES the ring renders in every mode.
         <meta-data
             android:name="io.flutter.embedding.android.ImpellerBackend"
             android:value="opengles" />
+        -->
     </application>
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility and
