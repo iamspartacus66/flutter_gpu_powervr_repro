@@ -44,13 +44,13 @@ Not reproducible on: the same phone with `ImpellerBackend=opengles` (profile bui
 
 - Google Pixel 10 (`frankel`), Android 17, build `CP3A.260905.009`
 - GPU: PowerVR D-Series DXT-48-1536 MC1, Vulkan driver `25.3@6908880` (driverVersion 6908880, vendorID 0x1010, deviceID 0x71061212), Vulkan API 1.4
-- `Knot3dCapabilities`/`GpuContext`: `doesSupportOffscreenMSAA=true`, `doesSupportManuallyMippedTextures=true`, `doesSupportFramebufferRenderMipmap=true`, `maxSamplerAnisotropy=16`
+- `GpuContext`: `doesSupportOffscreenMSAA=true`, `doesSupportManuallyMippedTextures=true`, `doesSupportFramebufferRenderMipmap=true`, `maxSamplerAnisotropy=16`
 
 ## Flutter
 
 ```
 [✓] Flutter (Channel stable, 3.47.6, on macOS 26.5.2 25F84 darwin-arm64, locale en-US) [330ms]
-    • Flutter version 3.47.6 on channel stable at /Users/dboren/Applications/flutter
+    • Flutter version 3.47.6 on channel stable at ~/Applications/flutter
     • Upstream repository https://github.com/flutter/flutter.git
     • Framework revision 5fc346839b (8 days ago), 2026-09-30 15:02:49 -0700
     • Engine revision 692136cb65
@@ -58,10 +58,10 @@ Not reproducible on: the same phone with `ImpellerBackend=opengles` (profile bui
     • DevTools version 2.60.0
     • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, enable-record-use, no-enable-swift-package-manager, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration
 [✓] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [885ms]
-    • Android SDK at /Users/dboren/Library/Android/sdk
+    • Android SDK at ~/Library/Android/sdk
     • Emulator version 37.1.11.0 (build_id 15917651) (CL:N/A)
     • Platform android-37.0, build-tools 36.0.0
-    • ANDROID_HOME = /Users/dboren/Library/Android/sdk
+    • ANDROID_HOME = ~/Library/Android/sdk
     • Java binary at: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java
       This is the JDK bundled with the latest Android Studio installation on this machine.
       To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
@@ -75,10 +75,8 @@ Not reproducible on: the same phone with `ImpellerBackend=opengles` (profile bui
     • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 [✓] Connected device (4 available) [6.6s]
     • Pixel 10 (mobile)                     • 57280DLCR002UF            • android-arm64  • Android 17 (API 37)
-    • Stormbringer XVII (wireless) (mobile) • 00008150-000659010C00401C • ios            • iOS 27.0.1 24A446
     • macOS (desktop)                       • macos                     • darwin-arm64   • macOS 26.5.2 25F84 darwin-arm64
     • Chrome (web)                          • chrome                    • web-javascript • Google Chrome 154.0.8037.98
-    ! Error: Browsing on the local area network for Stormbringer XV. Ensure the device is unlocked and attached with a cable or associated with the same local area network as this Mac.
       The device must be opted into Developer Mode to connect wirelessly. (code -27)
 [✓] Network resources [445ms]
     • All expected network resources are available.
