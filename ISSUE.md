@@ -73,11 +73,10 @@ Not reproducible on: the same phone with `ImpellerBackend=opengles` (profile bui
     • CocoaPods version 1.16.2
 [✓] Chrome - develop for the web [4ms]
     • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-[✓] Connected device (4 available) [6.6s]
+[✓] Connected device (3 available) [6.6s]
     • Pixel 10 (mobile)                     • 57280DLCR002UF            • android-arm64  • Android 17 (API 37)
     • macOS (desktop)                       • macos                     • darwin-arm64   • macOS 26.5.2 25F84 darwin-arm64
     • Chrome (web)                          • chrome                    • web-javascript • Google Chrome 154.0.8037.98
-      The device must be opted into Developer Mode to connect wirelessly. (code -27)
 [✓] Network resources [445ms]
     • All expected network resources are available.
 • No issues found!
