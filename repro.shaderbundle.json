@@ -1,0 +1,5 @@
+{
+  "SimpleVertex":   { "type": "vertex",   "file": "shaders/simple.vert" },
+  "SimpleFragment": { "type": "fragment", "file": "shaders/simple.frag" },
+  "DepthFragment":  { "type": "fragment", "file": "shaders/depth.frag" }
+}
